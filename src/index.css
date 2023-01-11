@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -67,4 +71,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.text-gradient {
+  background-image: linear-gradient(to right, #06b0ff, #8401ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
